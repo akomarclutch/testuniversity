@@ -1,0 +1,39 @@
+{
+  "name": "credouniversity",
+  "version": "1.0.0",
+  "description": "Enrollment API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "lab -c -L -v",
+    "test-cover": "lab -c -r html -o ./test/artifacts/coverage.html && open ./test/artifacts/coverage.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Andrew Komar <akomar812@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "confidence": "3.x.x",
+    "csv": "^1.1.0",
+    "glue": "4.x.x",
+    "hapi": "15.x.x",
+    "hapi-swagger": "^7.4.0",
+    "hoek": "4.x.x",
+    "inert": "^4.0.3",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "code": "3.x.x",
+    "lab": "11.x.x",
+    "nodemon": "1.x.x"
+  }
+}
