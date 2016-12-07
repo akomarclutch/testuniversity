@@ -13,7 +13,7 @@ Composer((err, server) => {
 
     const options = {
         info: {
-            'title': 'Credo University Documentation',
+            'title': 'Test University Documentation',
             'version': '0.1'
         }
     };

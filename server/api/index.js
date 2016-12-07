@@ -20,7 +20,7 @@ exports.register = (server, options, next) => {
         handler: (request, reply) => {
 
             // welcome!
-            reply({ message: 'Welcome to Credo University' });
+            reply({ message: 'Welcome to Test University' });
         }
     });
 

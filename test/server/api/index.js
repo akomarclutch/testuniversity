@@ -60,7 +60,7 @@ lab.experiment('Index Plugin', () => {
 
         server.inject(request, (response) => {
 
-            Code.expect(response.result.message).to.equal('Welcome to Credo University');
+            Code.expect(response.result.message).to.equal('Welcome to Test University');
             Code.expect(response.statusCode).to.equal(200);
 
             done();
