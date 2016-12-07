@@ -2,6 +2,8 @@
 
 Enrollment API
 
+Test data provided as js modules in /data
+
 ## Usage
 
 ### Pre-reqs
